@@ -310,8 +310,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 nav img{
     height: 60px;
     color: rgb(19, 192, 245);
-    padding: 8px;
-  padding-left : 15px;
+    padding: 3px;
   }
 
 .navbar{
@@ -405,7 +404,8 @@ font-weight:400;
   }
   .recent a{
     display: block;
-    color: #60B0E6;
+    color: rgba(48, 49, 49, 0.568);
+    font-style: bold;
     padding:1%;
     font-size: 150%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
