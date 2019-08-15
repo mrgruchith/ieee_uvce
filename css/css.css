@@ -189,7 +189,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     }
     .ieee-content
   {
-    font-size: 100%;
+    font-size: 80%;
   }
   .sig {
     display: grid;
