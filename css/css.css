@@ -74,8 +74,8 @@
     grid-gap: 1em;
     
   }
-  .img2 { background-image: url("../images/impetus.jpg");}
-  .img3 { background-image: url("../images/kagada18.jpg"); }
+  .img2 { background-image: url("../images/kagada18.jpg");}
+  .img3 { background-image: url("../images/impetus.jpg"); }
 
   .s-descrip{
     padding: 20px;
