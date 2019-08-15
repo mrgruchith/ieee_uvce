@@ -310,7 +310,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 nav img{
     height: 60px;
     color: rgb(19, 192, 245);
-    padding: 3px;
+    padding: 8px;
+    padding-left: 15px;
   }
 
 .navbar{
