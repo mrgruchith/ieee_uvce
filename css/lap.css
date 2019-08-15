@@ -1,0 +1,60 @@
+@media(min-width:800px)
+  {
+  .img1 { background-image: url("../images/cover_back.JPG");
+          image-resolution: 72dpi; 
+          margin: 20px;
+        }
+  .ieee-content
+  {
+    font-size: 170%;
+  }
+  .sig {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 230px;
+    grid-gap: 1em;
+    
+  }
+  .img2 { background-image: url("../images/impetus.jpg");}
+  .img3 { background-image: url("../images/kagada18.jpg"); }
+
+  .s-descrip{
+    padding: 20px;
+    font-size: 90%;
+    padding-top: 50px;
+  }
+  .title h1{
+    padding-top: 5px;
+    font-size: 150%;
+  }
+  .fest-image{
+    flex: 100%;
+    height: 470px;
+    top: 0%;
+    /*display: inline-block;*/
+  }
+  
+  .fests{
+    display: flex;
+  }
+  .description{
+    font-size: 200%;
+    padding-top: 300px;
+  }
+  .staff-madam{
+    float: left;
+    width: 30%;
+    padding-top: 15%;
+
+  }
+  .others{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .person img{
+    padding:20px;
+  }
+  /*.ml1 .text-wrapper {
+    font-size: 200%;
+  }*/
+}
+
