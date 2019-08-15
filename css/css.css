@@ -372,6 +372,9 @@ font-weight:400;
     position: relative;
     color: white;
   }
+.ieee-title{
+    font-size: 5vh;
+  }
   
   @-webkit-keyframes ieeeback{
     from{opacity: 0;}
