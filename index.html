@@ -1,675 +1,775 @@
-@media (max-width:800px){
-  .img1{ 
-    background-image: url("../images/cover_back_mob.jpg");
-    margin: 20px;
-  }
-  .ieee-content
-{
-  font-size: 2vh;
-}
-.sig {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 230px;
-  grid-gap: 1em;
-  padding-top: 50px;
-  
-}
-.img2 { background-image: url("../images/c-kagada.jpg");}
-.img3 { background-image: url("../images/c-impetus.jpg"); }
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 
-.s-descrip{
-  padding: 5px;
-  font-size: 80%;
-  padding-top: 35px;
-}
-.title h1{
-  font-size: 100%;
-  padding-top: 3%;
-}
-.fest-image{
-  padding:10px; 
-  float: unset;
-  width: 100%;
-  height: 240px;
-  top: 0%;
-}
-
-.fest-image img{
-  height: 100%;
-}
-.staff-madam{
-  float: none;
-}
-.others{
-  grid-template-columns: 1fr 1fr;
-}
-
-.person{
-  max-width: 400px;
-}
-.person img{
-  width: 80%;
-  padding: 5px;
-}
-/*.ml1 .text-wrapper {
-  font-size: 60%;
-}*/
-}
-
-@media(min-width:800px)
-  {
-  .img1 { background-image: url("../images/cover_back.JPG");
-          image-resolution: 72dpi; 
-          margin: 20px;
-        }
-  .ieee-content
-  {
-    font-size: 170%;
-  }
-  .sig {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-auto-rows: 230px;
-    grid-gap: 1em;
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     
-  }
-  .img2 { background-image: url("../images/kagada18.jpg");}
-  .img3 { background-image: url("../images/impetus.jpg"); }
+        <link rel="stylesheet" href="css/bootstrap.css">
+         <link rel="stylesheet" href="css/lap.css">
+         <link rel="stylesheet" href="css/mobile.css">
+         <link rel="stylesheet" href="css/css.css">
+        <script src="wow.min.js"></script>
+        <link rel="stylesheet" href="css/wow.css">
+        
+    </head>
 
-  .s-descrip{
-    padding: 20px;
-    font-size: 90%;
-    padding-top: 50px;
-  }
-  .title h1{
-    padding-top: 5px;
-    font-size: 150%;
-  }
-  .fest-image{
-    flex: 100%;
-    height: 470px;
-    top: 0%;
-    /*display: inline-block;*/
-  }
-  
-  .fests{
-    display: flex;
-  }
-  .description{
-    font-size: 200%;
-    padding-top: 300px;
-  }
-  .staff-madam{
-    float: left;
-    width: 30%;
-    padding-top: 15%;
+    <body>
+        
 
-  }
-  .others{
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .person img{
-    padding:20px;
-  }
-  /*.ml1 .text-wrapper {
-    font-size: 200%;
-  }*/
-}
+        <div class="front-page">
+            <div class="intro">
+                <h1 class="ml1">
+                        <span class="text-wrapper">
+                          <span class="line line1"></span>
+                          <span class="letters" style="font-size:12vw;">IEEE UVCE</span>
+                          <span class="line line2"></span>
+                        </span>
+                      </h1>
+                    
+            <div class="svg-wrapper">
+                    <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+                        <rect class="shape" height="60" width="320" />
+                    </svg>
+                    <div class="text">Dive In</div>
+                </div>
+            </div> 
+        </div>
+           
 
-
-
-/*-------------------------------------------------------*/
-.intro{
-  transform: translate(0%,-50%);
-  width: auto;
-  height: auto;
-  align-content: center;
-  
-}
-.ml1 {
-  font-weight: 900;
-  font-size: 3.5em;
-  top: 0%;
-  left: 10%;
-}
-
-.ml1 .letter {
-  display: inline-block;
-  line-height: 1em;
-}
-
-.ml1 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  padding-top: 0.1em;
-  padding-right: 0.05em;
-  padding-bottom: 0.15em;
-  left: 10%;
-  /*font-size: 150 vw;*/
-}
-
-.ml1 .line {
-  opacity: 0;
-  position: absolute;
-  left: 0;
-  height: 3px;
-  width: 100%;
-  background-color: #fff;
-  transform-origin: 0 0;
-}
-
-.ml1 .line1 { top: 0; }
-.ml1 .line2 { bottom: 0; }
-/*---------------------------------------------------------*/
-body,html{
-    width: 100%;
-    height: 100%;
-    margin: 0%;
-    padding: 0%;
-    background-color: #ffffff;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='841' height='841' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke-opacity='0.53'%3E%3Cg stroke='%23c7fff4' stroke-width='17'%3E%3Cline x1='-8' y1='-8' x2='808' y2='808'/%3E%3Cline x1='-8' y1='792' x2='808' y2='1608'/%3E%3Cline x1='-8' y1='-808' x2='808' y2='8'/%3E%3C/g%3E%3Cg stroke='%23cbfff5' stroke-width='16'%3E%3Cline x1='-8' y1='767' x2='808' y2='1583'/%3E%3Cline x1='-8' y1='17' x2='808' y2='833'/%3E%3Cline x1='-8' y1='-33' x2='808' y2='783'/%3E%3Cline x1='-8' y1='-783' x2='808' y2='33'/%3E%3C/g%3E%3Cg stroke='%23cefff5' stroke-width='15'%3E%3Cline x1='-8' y1='742' x2='808' y2='1558'/%3E%3Cline x1='-8' y1='42' x2='808' y2='858'/%3E%3Cline x1='-8' y1='-58' x2='808' y2='758'/%3E%3Cline x1='-8' y1='-758' x2='808' y2='58'/%3E%3C/g%3E%3Cg stroke='%23d2fff6' stroke-width='14'%3E%3Cline x1='-8' y1='67' x2='808' y2='883'/%3E%3Cline x1='-8' y1='717' x2='808' y2='1533'/%3E%3Cline x1='-8' y1='-733' x2='808' y2='83'/%3E%3Cline x1='-8' y1='-83' x2='808' y2='733'/%3E%3C/g%3E%3Cg stroke='%23d6fff7' stroke-width='13'%3E%3Cline x1='-8' y1='92' x2='808' y2='908'/%3E%3Cline x1='-8' y1='692' x2='808' y2='1508'/%3E%3Cline x1='-8' y1='-108' x2='808' y2='708'/%3E%3Cline x1='-8' y1='-708' x2='808' y2='108'/%3E%3C/g%3E%3Cg stroke='%23d9fff7' stroke-width='12'%3E%3Cline x1='-8' y1='667' x2='808' y2='1483'/%3E%3Cline x1='-8' y1='117' x2='808' y2='933'/%3E%3Cline x1='-8' y1='-133' x2='808' y2='683'/%3E%3Cline x1='-8' y1='-683' x2='808' y2='133'/%3E%3C/g%3E%3Cg stroke='%23ddfff8' stroke-width='11'%3E%3Cline x1='-8' y1='642' x2='808' y2='1458'/%3E%3Cline x1='-8' y1='142' x2='808' y2='958'/%3E%3Cline x1='-8' y1='-158' x2='808' y2='658'/%3E%3Cline x1='-8' y1='-658' x2='808' y2='158'/%3E%3C/g%3E%3Cg stroke='%23e0fff9' stroke-width='10'%3E%3Cline x1='-8' y1='167' x2='808' y2='983'/%3E%3Cline x1='-8' y1='617' x2='808' y2='1433'/%3E%3Cline x1='-8' y1='-633' x2='808' y2='183'/%3E%3Cline x1='-8' y1='-183' x2='808' y2='633'/%3E%3C/g%3E%3Cg stroke='%23e4fff9' stroke-width='9'%3E%3Cline x1='-8' y1='592' x2='808' y2='1408'/%3E%3Cline x1='-8' y1='192' x2='808' y2='1008'/%3E%3Cline x1='-8' y1='-608' x2='808' y2='208'/%3E%3Cline x1='-8' y1='-208' x2='808' y2='608'/%3E%3C/g%3E%3Cg stroke='%23e7fffa' stroke-width='8'%3E%3Cline x1='-8' y1='567' x2='808' y2='1383'/%3E%3Cline x1='-8' y1='217' x2='808' y2='1033'/%3E%3Cline x1='-8' y1='-233' x2='808' y2='583'/%3E%3Cline x1='-8' y1='-583' x2='808' y2='233'/%3E%3C/g%3E%3Cg stroke='%23ebfffb' stroke-width='7'%3E%3Cline x1='-8' y1='242' x2='808' y2='1058'/%3E%3Cline x1='-8' y1='542' x2='808' y2='1358'/%3E%3Cline x1='-8' y1='-558' x2='808' y2='258'/%3E%3Cline x1='-8' y1='-258' x2='808' y2='558'/%3E%3C/g%3E%3Cg stroke='%23eefffc' stroke-width='6'%3E%3Cline x1='-8' y1='267' x2='808' y2='1083'/%3E%3Cline x1='-8' y1='517' x2='808' y2='1333'/%3E%3Cline x1='-8' y1='-533' x2='808' y2='283'/%3E%3Cline x1='-8' y1='-283' x2='808' y2='533'/%3E%3C/g%3E%3Cg stroke='%23f2fffc' stroke-width='5'%3E%3Cline x1='-8' y1='292' x2='808' y2='1108'/%3E%3Cline x1='-8' y1='492' x2='808' y2='1308'/%3E%3Cline x1='-8' y1='-308' x2='808' y2='508'/%3E%3Cline x1='-8' y1='-508' x2='808' y2='308'/%3E%3C/g%3E%3Cg stroke='%23f5fffd' stroke-width='4'%3E%3Cline x1='-8' y1='467' x2='808' y2='1283'/%3E%3Cline x1='-8' y1='317' x2='808' y2='1133'/%3E%3Cline x1='-8' y1='-333' x2='808' y2='483'/%3E%3Cline x1='-8' y1='-483' x2='808' y2='333'/%3E%3C/g%3E%3Cg stroke='%23f8fffe' stroke-width='3'%3E%3Cline x1='-8' y1='342' x2='808' y2='1158'/%3E%3Cline x1='-8' y1='442' x2='808' y2='1258'/%3E%3Cline x1='-8' y1='-458' x2='808' y2='358'/%3E%3Cline x1='-8' y1='-358' x2='808' y2='458'/%3E%3C/g%3E%3Cg stroke='%23fcfffe' stroke-width='2'%3E%3Cline x1='-8' y1='367' x2='808' y2='1183'/%3E%3Cline x1='-8' y1='417' x2='808' y2='1233'/%3E%3Cline x1='-8' y1='-433' x2='808' y2='383'/%3E%3Cline x1='-8' y1='-383' x2='808' y2='433'/%3E%3C/g%3E%3Cg stroke='%23ffffff' stroke-width='1'%3E%3Cline x1='-8' y1='392' x2='808' y2='1208'/%3E%3Cline x1='-8' y1='-408' x2='808' y2='408'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-}
-.bg-image {
-    overflow: hidden;
-    height: 100%;   
-    top: 20px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .main-title{
-    position: center;
-    width: 100%;
-    z-index: 1;
-    padding: 20px;
-    size: 40px;
-    /*margin-top: 30px;*/
-    text-size-adjust: 50px;
-    color: rgb(19, 192, 245);
-    text-align: center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-  .main-title h1{
-    font-size: 250%;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-
-  .main-title span{
-    box-sizing: border-box;
-    background: rgba(128, 128, 128, 0.41);
-    width: 10%;
-    height: 1px;
-    display: inline-block;
-    vertical-align: text-bottom;
-    align-content: center;
-  }
-
-  .front-page{
-    background-color: #00a2fff6;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='470' height='391.7' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.07'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/svg%3E");
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    align-content: center;
-    overflow: hidden;
-  
-}
-
-.front-page h1{
-  position: absolute;
-  margin-top: 35vh;
-  left: 10%;
-  font-size: 4rem;
-  color: #fff;
-  text-align: center;
-  font-weight: 100;
-  word-spacing: 2rem;
-  z-index: 200;
-  font-size: 80px;
-}
-.second{
-  width: 100%;
-  height: 100%;
-}
-.svg-wrapper {
-  z-index: 200;
-  position: absolute;
-  text-align: center;
-  display: inline-block;
-  margin: 0%;
-  top: 80vh;
-  align-content: center;
-  overflow: hidden;
-  width: 100%;
-  animation: appear 1s ease-in 3.5s;
-  animation-fill-mode: both;
-  cursor: pointer;
-}
-.svg-wrapper:active{
-  top: 80.2vh;
-}
-.shape {
-  fill: transparent;
-  stroke-dasharray: 140 540;
-  stroke-dashoffset: -474;
-  stroke-width: 8px;
-  stroke: #ffffff;
-}
-.text {
-  color: #fff;
-  font-size: 2rem;
-  letter-spacing: 8px;
-  line-height: 1.5rem;;
-  position: relative;
-  top: -45px;
-  text-align: center!important;
-}
-@keyframes appear{
-  0%{
-      opacity: 0;
-  }
-  100%{
-      opacity: 1;
-  }
-}
-@keyframes reverseAppear {
-  0% {
-      opacity: 1;
-      transform: scale(1);
-  }
-  100% {
-      opacity: 0;
-      transform: scale(0);
-  }
-}
-@keyframes draw {
-  0% {
-      stroke-dasharray: 140 540;
-      stroke-dashoffset: -474;
-      stroke-width: 6px;
-  }
-  100% {
-      stroke-dasharray: 760;
-      stroke-dashoffset: 0;
-      stroke-width: 2px;
-  }
-}
-.svg-wrapper:hover .shape {
-  -webkit-animation: 0.5s draw linear forwards;
-  -moz-animation: 0.5s draw linear forwards;
-  animation: 0.5s draw linear forwards;
-}
-/*-------------------------------------------------------*/
+        <!-------navbar------------------->
+       
+        <nav class="navbar navbar-default navbar-fixed-top" id="topnav">
+        <div class="navbar1 container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <img src="images/ieeeuvce.png">
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li active><a href="#">Home</a></li>
+                <li ><a href="#fest-box">Fests</a></li>
+                <li ><a href="#foot">Contacts</a></li>
+                <li ><a href="#awards-box">Awards</a></li>
+                <li><a href="#" onclick="membersAppear()">Team</a></li>
+                <li ><a href="https://goo.gl/forms/0yiCii8glI5m8gr93">Join IEEE</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
 
+      <!---------------------cover image------------------>
+      <div class="bg-image img1" id="ieeeimage">
+            <div class="ieee-content">
+                <h1 class="ieee-title wow slideInRight" data-wow-duration="2s" data-wow-delay="0s">IEEE UVCE</h1>
+                <hr>
+                <p class="content wow slideInUp" data-wow-duration="2s" data-wow-delay="0s">IEEE Student Branch of UVCE endeavors to enhance the 
+                    learning experience of the student community on the UVCE campus. 
+                    The Student Branch intends on providing different social, cultural and technical events for the students throughout the year. 
+                    We encourage the students to take full advantage of the benefits of IEEE membership, including scholarships, competitions, 
+                    and conference grants. The Student Branch also emphasizes the students to work with peers in other institutes, academicians, 
+                    professionals, engineers, and scientists through the on campus IEEE Student Branch and the Local IEEE Section, thereby 
+                    encouraging students to be a part of the global IEEE community.</p>
+            </div>
+        </div>
 
-/*----------------------------------------------------------------------*/
+        <!-------------------recent----------------->
+        <div class="recent" id="recent-activities">
+                <div class="main-title"><h1>RECENT ACTIVITIES</h1>
+                    <span></span><img src="images/star.png" alt=""><span></span>
+                    <div>
+                        <a class="wow lightSpeedIn" data-wow-duration="2s" data-wow-delay="0s" href="kagada.html">KAGADA 2019</a>
+                        <a class="wow lightSpeedIn" data-wow-duration="2s" data-wow-delay="0s" href="">CODEFURY</a>
+                        <a class="wow lightSpeedIn" data-wow-duration="2s" data-wow-delay="0s" href="http://www.impetus19.com">IMPETUS 19</a>
+                        <a class="wow lightSpeedIn" data-wow-duration="2s" data-wow-delay="0s" href="https://www.facebook.com/events/140375466500772/">ENNOVANT</a>
+                    </div>
+                </div>
+        </div>
 
-nav img{
-    height: 60px;
-    color: rgb(19, 192, 245);
-    padding: 8px;
-    padding-left: 15px;
-  }
+        <!------------------sigs----------------------------->
+        <div id="sig-box">
 
-.navbar{
-  border-radius: 0%;
-  
-}
-.navbar-default {
-  background-color:  white;
-  border-color: transparent;
-  
-}
-.navbar-default .navbar-nav{
-  align-content: center;
-  padding: 10px;
-}
-.navbar-default .navbar-nav li a{
-color:#60B0E6;
-text-decoration:none;
-padding:0.4em 0.9em;
-display:block;
-border:1px solid #fff;
-font-size:1.3em;
-font-weight:400;
-}
+                <div class="main-title "><h1>SIG's</h1>
+                    <span></span><img src="images/star.png" alt=""><span></span>
+                </div>
+                <div class="sig">
+                    <div class="sig-image img-wie wow bounceIn animated" data-wow-delay="1.0s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceIn;">
+                        <div class="title"><h1>WIE</h1></div>
+                        <div class="s-descrip">
+                            The group was inaugurated with a panel discussion by eminent women professionals from the technical field. IEEE WIE aims at letting
+                            female students discover their strengths and weaknesses and works towards shaping their skills so they grow and be at better
+                            positions at whichever organisations they join in the future.
+                        </div>
+                    </div>
+                    <div class="sig-image img-cs wow bounceIn animated" data-wow-delay="1.0s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceIn;">
+                        <div class="title"><h1>COMPUTER SOCIETY</h1></div>
+                        <div class="s-descrip">
+                            Computer Society was started in the year 2016. This society is for all students studying in the 1st year to the final year. 
+                            It conducts monthly coding contests called Ncode, Workshops on C, Python, Android and many others mainly aimed at making the students up to date with the technologies.
+                        </div>
+                    </div>
+                    <div class="sig-image img-pes  wow bounceIn animated" data-wow-delay="1.0s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceIn;">
+                        <div class="title"><h1>PES</h1></div>
+                        <div class="s-descrip">
+                            Power and Energy Society formed on 30th March 2019 is the newest society of IEEE UVCE. On the occasion of PES day, a Tech-Talk on 
+                            Real Time Simulation - Smart grid was conducted with the keynote speaker as Dr. Shravana Kumar Musunuri, Technology Leader at 
+                            OPAL-RT India. Followed by the talk was a small demonstration session on real-time applications of Simulation and Microgrid by Mr.
+                            Bhisvajith. We are planning to conduct a PLC workshop in the second week of May.
+                        </div>
+                    </div>
+                    <div class="sig-image img-art wow bounceIn animated" data-wow-delay="1.0s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceIn;">
+                        <div class="title"><h1>ART FORUM</h1></div>
+                        <div class="s-descrip">
+                            Art Forum is an SIG started in 2011 dedicated entirely to artists. Digital art, craft making, decoupage and up cycling are
+                            also supported. Various contests like doodle making, mask making are conducted for the students by this SIG.
+                        </div>
+                    </div>
+                    <div class="sig-image img-avishkar wow bounceIn animated" data-wow-delay="1.0s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceIn;">
+                        <div class="title"><h1>AVISHKAR</h1></div>
+                        <div class="s-descrip">
+                            Avishkar (Sanskrit term for ‘innovation’), the guiding beacon for enlightened minds is an elite research group of IEEE UVCE
+                            and it has been a palatine to encourage, inspire and innovate. The beginning of Avishkar was synonymous to the beginning
+                            of IEEE UVCE.
+                        </div>
+                    </div>
+                    <div class="sig-image img-web  wow bounceIn animated" data-wow-delay="1.0s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceIn;">
+                        <div class="title"><h1>WEB DESIGN</h1></div>
+                        <div class="s-descrip">
+                            The web design SIG was started in April 2017. This is the web tweaking pavilion of IEEE UVCE. Web team specializes in conducting
+                            all the web related competitions and workshops for IEEE UVCE. Workshops on HTML and CSS and contests on website front end
+                            designing have been conducted.
+                        </div>
+                    </div>
+                    <div class="sig-image img-robotics wow bounceIn animated" data-wow-delay="1.0s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceIn;">
+                        <div class="title"><h1>ROBOTICS</h1></div>
+                        <div class="s-descrip">
+                            The Robotics Club was started in the year 2009. The formation of this club seemed inevitable since no aspect of life is
+                            untouched by automated machines in some form. The aim of the Robotics Club is to provide sufficient training to students
+                            by conducting workshops to undertake basic to complex robotics projects.
+                        </div>
+                    </div>
+                    <div class="sig-image img-design wow bounceIn animated" data-wow-delay="1.0s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceIn;">
+                        <div class="title"><h1>DESIGN</h1></div>
+                        <div class="s-descrip">
+                            The design SIG was started in April 2017. The design team of IEEE UVCE consists of Graphic designers who design and conduct
+                            workshops on Adobe Illustrator and Photoshop. This SIG gives opportunities to the students to be a part of the design team
+                            for various events conducted by IEEE UVCE.
+                        </div>
+                    </div>
+                    <div class="sig-image img-varchas wow bounceIn animated" data-wow-delay="1.0s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceIn;">
+                        <div class="title"><h1>VARCHAS</h1></div>
+                        <div class="s-descrip">
+                            This is the astronomy club of IEEE UVCE which deals with concepts of science and Astrophysics. It was started in May 2012.
+                            Varchas conducts lot of science fun filled events and is a perfect platform for people who are curious about science and
+                            astronomy.
+                        </div>
+                    </div>
+                    <div class="sig-image img-tisp wow bounceIn animated" data-wow-delay="1.0" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceIn;">
+                        <div class="title"><h1>TISP AND STAR</h1></div>
+                        <div class="s-descrip">
+                            TISP (Teacher in Service Program) and STAR (Student And Teacher Research Program) aim at the improvement in delivery of knowledge.
+                            By conducting various workshops for teachers as well as students, these two sigs work to improve the teaching methods adopted.
+                        </div>
+                    </div>
+                    
+                
+                </div>
+            </div>
 
-.navbar-default .navbar-nav li a:hover,
-.navbar-default .navbar-nav li a:active{
-  border: 1px solid  #60B0E6;
-  border-radius: 2px;
-  color:  #60B0E6;
-}
+            <!----------------------fests---------------->
+            <div id="fest-box" >
+                    <div class="main-title"><h1>FESTS</h1> 
+                        <span></span><img src="images/star.png" alt=""><span></span>
+                    </div>
+                    <div class="fests">
+                    <div class="fest-image wow fadeInLeftBig">
+                        <div class="bg-image img2"></div>
+                        <ul class="description">
+                            <li><a href="kagada.html">KAGADA</a> is the annual technical paper presentation competition organized by IEEE UVCE.</li>
+                            <li>Categories for paper presentation: UG ,PG and WIE.</li>
+                            <li>Apart from paper presentation ,project and poster presentation is also conducted.</li>
+                            <li>Programme from WIE and STAR is also organised.</li>
+                        </ul>
+                    </div>
+                    <div class="fest-image wow fadeInRightBig">  
+                        <div class="bg-image img3"></div>
+                        <ul class="description">
+                            <li><a href = "www.impetus19.com">Impetus</a> is a National level technical fest.</li>
+                            <li>The fest is preceded by curtain raisers which consists of workshops, seminars.</li>
+                            <li>It is based on different innovative themes every year</li>
+                            <li>About 20 events are conducted among which Summit, Mock placements, The Alchemist, Coding event witness
+                                huge participation.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-.navbar-default .navbar-nav li a:focus{
-  border: 1px solid  #60B0E6;
-  border-radius: 2px;
-  color:  #60B0E6;
-}
+ <!--Awards and recognition-->
+<div id="awards-box" class="awards-recognition"> 
+        <div class="main-title"><h1>Awards and Recognition</h1> 
+            <span></span><img src="images/star.png" alt=""><span></span>
+        </div>
+        <ul class="awards">
+            <li class="wow fadeInRightBig" data-wow-duration="0.4s">IEEE UVCE won the Best educational activities award in region 10 (Asia and Pacific) in 2018.</li>
+            <li class="wow fadeInLeftBig" data-wow-duration="0.8s">Dr. P Deepa Shenoy, branch advisor of IEEE UVCE won outstanding WIE volunteer award from Bangalore Section in 2018.</li>
+            <li class="wow fadeInRightBig" data-wow-duration="1.2s"> IEEE UVCE won the best website award in Bangalore section in 2018.</li>
+            <li class="wow fadeInLeftBig" data-wow-duration="1.6s">Karthik Kolle, ex-chairperson of IEEE UVCE, won outstanding student volunteer award from Bangalore section in 2018.</li>
+        </ul>
+</div>       
 
-/*-----------------------------------------------------------------------------------*/
-.ieee-content{
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(15, 15, 15, 0.822); /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    width: 80%;
-    top: 50%;
-    text-align: justify;
-    z-index: 0;
-    left: 50%;
-    height: fit-content;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    -webkit-animation-name: ieeeback;
-    -webkit-animation-duration: 4s;
-    animation-name: ieeeback;
-    animation-duration: 4s;
-    /*font-size: 3wh;*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }  
+<!-------------------------------------------------->
+ <!-----staffff-->
 
-  .content{
-    position: relative;
-    color: white;
-  }
-  .ieee-title{
-    font-size: 5vh;
-  }
-  
-  @-webkit-keyframes ieeeback{
-    from{opacity: 0;}
-    to{opacity: inherit}
-  }
+ <div class="staff" id="teachers">
+        <div class="main-title"><h1>STAFF</h1>
+        <span></span><img src="images/stafff.png" alt=""><span></span>
+       </div>
+        <div class="staff-madam">
+            <div class="person wow zoomInLeft" data-wow-duration="0.4s">
+                <img src="images/img/pds.jpg">
+                    <h1>Dr. P Deepa Shenoy</h1>
+                    <p class="portpolio">Branch Advisor</p>
+            </div>
+        </div>
 
-  @keyframes ieeeback{
-    from{opacity: 0}
-    to{opacity: inherit;}
-  }
-  .img1{
-    position: relative;
+        <div class="others">
+        
+            <div class="person  wow zoomInRight " data-wow-duration="0.4s">
+                <img src="images/staff/venugopal.png">
+                <div class="details">
+                    <h1 class="name">Dr. Venugopal K R</h1>
+                    <h2 class="portpolio">Branch Patron</h2>
+                </div>
+            </div>
+
+        <div class="person wow zoomInRight" data-wow-duration="0.6s">
+                <img src="images/staff/kiran.png" >
+                <div class="details">
+                    <h1 class="name">Dr. Kiran K</h1>
+                    <h2 class="portpolio">Branch Counselor</h2>
+                </div>
+            </div>
+        <div class="person wow zoomInRight" data-wow-duration="0.8s">
+            <img src="images/staff/pushpa.png">
+            <div class="details">
+                <h1 class="name">Dr. Pushpa C N</h1>
+                <h2 class="portpolio">WIE Mentor</h2>
+            </div>
+        </div>
+        <div class="person wow zoomInRight" data-wow-duration="1.0s">
+            <img src="images/staff/veena.png">
+            <div class="details">   
+                <h1 class="name">Prof. H S Veena</h1>
+                <h2 class="portpolio">PES Advisor</h2>
+            </div>
+        </div>
+        <div class="person wow zoomInRight" data-wow-duration="1.2s">
+            <img src="images/staff/latha.png">
+            <div class="details">
+                <h1 class="name">Dr. Lata B T</h1>
+                <h2 class="portpolio">Branch Mentor</h2>
+            </div>
+        </div>
+        <div class="person wow zoomInRight" data-wow-duration="1.4s">
+            <img src="images/staff/venkatesh.png">
+            <div class="details">
+                <h1 class="name">Dr. Venkatesh M</h1>
+                <h2 class="portpolio">Branch Mentor</h2>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!------------------------------------------->
+    <div class="contact" id="foot">
+            <div class="alignEnd">
+                <div class = "wow slideInLeft">
+                    <h2>Useful Links</h2>
+                    <br>
+                    <p>
+                        <a href="https://www.ieee.org" target = "_blank"o>IEEE</a> &nbsp;|&nbsp;
+                        <a href="https://sites.ieee.org/indiacouncil/" target = "_blank"> Region 10 </a> &nbsp;|&nbsp;
+                        <a href="https://ieeebangalore.org" target = "_blank"> Bangalore Section </a>
+                    </p>
+                    <p><a href="bangaloreuniversity.ac.in/engineering-uvce/" target = "_blank">University Visvesvaraya College of Engineering</a></p>
+                </div>
+                <div class = "wow slideInRight">
+                    <h2>Contact Us</h2>
+                    <br>
+                    <p>
+                        <a href="mailto:mahith.98@gmail.com " target="_blank">
+                            <i class="fa fa-envelope"> </i> Mahith Shetty
+                        </a>
+                    </p>
+                    <p>
+                    <a href="https://goo.gl/maps/P43RC7Qphrq" target="_blank">
+                        <i class="fa fa-map-marker"></i> UVCE, K.R Circle, B.R Ambedkar Veedhi, Bengaluru
+                    </a>
+                    </p>
+                    <br>
+                </div>
+            </div>
+            <br>
+            <div class="icon-arrange">
+                <a href="https://www.facebook.com/ieeeuvce/" data-toggle="tooltip" title="Facebook">
+                    <i class="fa fa-facebook icon wow fadeInUpBig" data-wow-duration="0.3s"></i>
+                </a>
+                <a href="https://twitter.com/ieeeuvce" data-toggle="tooltip" title="Twitter">
+                    <i class="fa fa-twitter icon wow fadeInUpBig" data-wow-duration="0.4s"></i>
+                </a>
+                <a href="https://www.instagram.com/ieeeuvce/" data-toggle="tooltip" title="Instagram">
+                    <i class="fa fa-instagram icon wow fadeInUpBig" data-wow-duration="0.5s"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ieee-uvce-66563332/?trk=public-profile-join-page" data-toggle="tooltip" title="LinkedIn">
+                    <i class="fa fa-linkedin-square icon wow fadeInUpBig" data-wow-duration="0.6s"></i>
+                </a>
+            </div>
+            <br>
+            <p style="color: rgba(190, 190, 190, 0.644)">
+                <a href="mailto:shraonedhar@gmail.com" target = "_blank">
+                    <i class="fa fa-user"></i> Web Administrator: Ruchith Gaurav K M</a>
+            </p>
+            <br>
+        </div>
     
-  }
 
-  /*---------------------------------------------------------------*/
-.recent{
-    align-content: center;
-    width: 100%;
-    overflow: hidden;
-    height: fit-content;
-    padding-top: 20px;
-  }
-  .recent a{
-    display: block;
-    color: rgba(48, 49, 49, 0.568);
-    font-style: bold;
-    padding:1%;
-    font-size: 150%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  
-  /*------------------------------------------------------------------------------------------*/
-
-  #sig-box{
-    width: 100%;
-    padding: 2%;
-    overflow: hidden;
+    </div>
+        <!--------------------------------------------------->
+        <div id="members">
+                <div id="execom">
+                    <img class="close" src="images/close.svg" alt="Close" onclick="membersHide()">
+                    <div>
+                        <h2 class="blue">Execom 2019-20</h2>
+                        <div class="line-down"></div>
     
-  }
-
-  .sig-image{
-    box-shadow: 3px 3px 3px 3px rgba(51, 51, 51, 0.247);
-    padding-top: 30%;
-    top:0;
-    overflow: hidden;
-    position: relative;
-    z-index: 1;
-  }
-  
-  
-  .s-descrip{
-    background-color: #60B0E6;
-    color: #f1f1f1;
-    position: absolute;
-    width: 100%;
-    text-align: justify;
-    top: -100%;
-    height: 100%;
+                        <!--Main Body-->
+                        <br>
+                        <div class="title-color">Main Team</div>
+                        <div class="members1">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Mahith Shetty</td>
+                                        <td>Chairperson</td>
+                                        <td>Fourth Year</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Keerthana A</td>
+                                        <td>Vice-Chairperson</td>
+                                        <td>Fourth Year</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Raja Mahapatra</td>
+                                        <td>Vice-Chairperson</td>
+                                        <td>Fourth Year</td>
+                                    </tr>
+                                    <tr>
+                                        <td>AKash Gowda</td>
+                                        <td>Vice-Chairperson</td>
+                                        <td>Fourth Year</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gayathri S</td>
+                                        <td>Treasurer</td>
+                                        <td>Fourth Year</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rajath R L</td>
+                                        <td>Joint Tresurer</td>
+                                        <td>Third Year</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kennith O Koshy</td>
+                                        <td>General Secratary</td>
+                                        <td>Third Year</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hamsa Shree N A</td>
+                                        <td>Joint Secretary</td>
+                                        <td>Third Year</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vishal M Kanthi</td>
+                                        <td>Joint Secretary</td>
+                                        <td>Third Year</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Niveditha G</td>
+                                        <td>Membership Incharge</td>
+                                        <td>Third Year</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Shubham Sahoo</td>
+                                        <td>Membership Incharge</td>
+                                        <td>Third Year</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Harshitha M</td>
+                                        <td>SAC Coordinator</td>
+                                        <td>Fourth Year</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vijay Kumar M S</td>
+                                        <td>SAC Coordinator</td>
+                                        <td>Fourth Year</td>
+                                    </tr>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
     
-    display: none;
-    box-sizing: border-box;
-    transition: all 0.5s;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-  
-  .img-art{ background-image: url("../images/sig/art.jpg")}
-  .img-avishkar{ background-image: url("../images/sig/avishkar.jpg")}
-  .img-cs{ background-image: url("../images/sig/cs.jpg")}
-  .img-design{ background-image: url("../images/sig/design.jpg")}
-  .img-robotics{ background-image: url("../images/sig/robotics.jpg")}
-  .img-tisp{ background-image: url("../images/sig/tisp.jpg")}
-  .img-varchas{ background-image: url("../images/sig/varchas.jpg")}
-  .img-pes{ background-image: url("../images/sig/pes.jpg")}
-  .img-web{ background-image: url("../images/sig/web.jpg")}
-  .img-wie{ background-image: url("../images/sig/wie.jpg")}
-
-  .sig-image:hover .s-descrip{
-    display: block;
-    -webkit-animation: drop 1s ;
-    -webkit-animation-delay: 0;
-    -webkit-animation-fill-mode: forwards;
-    animation: drop 1s;
-    animation-delay: 0;
-    animation-fill-mode: forwards;
-  }
-  .sig-image:hover .title{
-    display: block;
-
-  }
-
-  @-webkit-keyframes drop{
-    from{top:-100%}
-    to{top: 0%}
-  }
-  @keyframes drop{
-    from{top:-100%}
-    to{top: 0%}
-  }
-  .title{
-    width: 100%;
-    display: inline-block;
-    height: auto;
-    top: -6%;
-    font-style: bold;
+                    <!-- WIE MEMBERS -->
+                    <br>
+                    <div class="title-color">WIE</div>
+                    <div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Darshan S</td>
+                                    <td>Chairperson</td>
+                                    <td>Fourth Year</td>
     
-    text-align: center;
-    background-color: #60B0E6;
-    color: white;
-    position: absolute;
-    z-index: 1;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
+                                </tr>
+                                <tr>
+                                    <td>Seema M</td>
+                                    <td>Vice-Chairperson</td>
+                                    <td>Fourth</td>
+                                </tr>
+                                <tr>
+                                    <td>Mahima Pradeep</td>
+                                    <td>General Secratary</td>
+                                    <td>Third Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Supriya V Kurpad</td>
+                                    <td>Joint Secratary</td>
+                                    <td>Third Year</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+    
+                    <!-- Computer Society -->
+                    <br>
+                    <div class="title-color">Computer Society</div>
+                    <div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Venkatesh Belavadi</td>
+                                    <td>Chairperson</td>
+                                    <td>Fourth Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Anagesh M</td>
+                                    <td>Vice-Chairperson</td>
+                                    <td>Fourth Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Jerry Allan Akshay</td>
+                                    <td>Vice-Chairperson</td>
+                                    <td>Fourth Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Sriram K K</td>
+                                    <td>General Secratary</td>
+                                    <td>Third Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Charan M K</td>
+                                    <td>Joint Secretary</td>
+                                    <td>Third Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Pooja Hedge</td>
+                                    <td>Joint Secretary</td>
+                                    <td>Third Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Nayana Sajji</td>
+                                    <td>NCode Lead</td>
+                                    <td>Third Year</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+    
+                    <!-- SIGs -->
+                    <br>
+                    <div class="title-color">SIGs</div>
+                    <div>
+                        <table>
+                            <tbody>
+                               <tr>
+                                    <td>Dinashree Dinesh</td>
+                                    <td>Art Form</td>
+                                    <td>Fourth Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Shabana K C</td>
+                                    <td>Art Forum</td>
+                                    <td>Fourth Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Aditya Gokul</td>
+                                    <td>Art Forum</td>
+                                    <td>Fourth Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Gokul K</td>
+                                    <td>Art Forum</td>
+                                    <td>Fourth Year</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Naveen Kumar</td>
+                                    <td>Avishkar</td>
+                                    <td>Fourth Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Harish Ramesh</td>
+                                    <td>Avishkar</td>
+                                    <td>Third Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Srinivas K</td>
+                                    <td>Avishkar</td>
+                                    <td>Third Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Ruchith Gaurav K M</td>
+                                    <td>Web Development</td>
+                                    <td>Third Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Soumya S</td>
+                                    <td>Web Development</td>
+                                    <td>Third Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Manoj Kumar A</td>
+                                    <td>Web Development</td>
+                                    <td>Third Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Sandhya Shree N</td>
+                                    <td>Graphic Design</td>
+                                    <td>Third Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Venkateshprasad</td>
+                                    <td>Robotics</td>
+                                    <td>Third Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Smruthi L</td>
+                                    <td>TISP and STAR</td>
+                                    <td>Fourth Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Harshitha B R</td>
+                                    <td>TISP and STAR</td>
+                                    <td>Third Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Honavar Sanyukta</td>
+                                    <td>Literary Club</td>
+                                    <td>Third Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Sanjana Ramesh</td>
+                                    <td>Literary Club</td>
+                                    <td>Third Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Sankeerth M</td>
+                                    <td>Literary Club</td>
+                                    <td>Third Year</td>
+                                </tr>
+    
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+    
+                <!-- Repcom -->
+                <br>
+                <div id="repcom">
+                    <div>
+                        <h2 class="blue">Repcom 2019-20</h2>
+                        <div class="line-down"></div>
+                    </div>
+                    <br>
+                    <div class="title-color">Repcom Members</div>
+                    <div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Anam Ali</td>
+                                    <td>CSE</td>
+                                    <td>Second Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Munnoli Sammed Jaykumar</td>
+                                    <td>CSE</td>
+                                    <td>Second Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Niveditha Kulkarni</td>
+                                    <td>CSE</td>
+                                    <td>Second Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Ali Mohammed Habibullah</td>
+                                    <td>ISE</td>
+                                    <td>Second Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Vikas Gowda L V</td>
+                                    <td>ISE</td>
+                                    <td>Second Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Devika K N</td>
+                                    <td>EEE</td>
+                                    <td>Second Year</td>
+                                </tr>
+                                <tr>
+                                    <td>D S L Rasagnya</td>
+                                    <td>EEE</td>
+                                    <td>Second Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Jitendra Prasad K K</td>
+                                    <td>EEE</td>
+                                    <td>Second Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Varsha Nagesh</td>
+                                    <td>EEE</td>
+                                    <td>Second Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Ajantha Hebbar</td>
+                                    <td>ECE</td>
+                                    <td>Second Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Pruthvi Raj R</td>
+                                    <td>ECE</td>
+                                    <td>Second Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Srinivas</td>
+                                    <td>MECH</td>
+                                    <td>Second Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Sanketh Rajshekhar Patil</td>
+                                    <td>MECH</td>
+                                    <td>Second Year</td>
+                                </tr>
+                                <tr>
+                                    <td>Vinay Desai</td>
+                                    <td>MECH</td>
+                                    <td>Second Year</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            
+        
 
-  .img-pes .s-descrip{
-    font-size: 80%; 
-  }
-  
-  /*----------------------------------------------------------*/
-  #fest-box{
-    height: auto;
-    overflow: hidden;
-  }
-  .fests{
-    width: 100%;
-    height: auto;
-    padding: 20px;
-  }
-  .fest-image{
-    position: relative;
-    overflow: hidden;
-    padding: 20px;   
-  }
-  
-  .description{
-    background-color: #60B0E6;
-    color: #f1f1f1;
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    z-index: 1;
-    height: 100%;
-    padding: 30px;
-    box-sizing: border-box;
-    transition: all 0.5s;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    </body>
 
-  }
+    <!--------------------------------------------------------------------------->
+    <script>
+    var textWrapper = document.querySelector('.ml1 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
 
-  .fest-image:hover .description{
-    left: 0%;
-  }
-
-   /*------------awards---------------------------------------------*/
-
-   .awards-recognition{
-    padding: 20px;
-    overflow: hidden;
-    width: 100%;
-  }
-  .awards
-  {
-    align-content: center;
-    font-size: 20px;
-    padding: 30px;
-    border-radius: 10px;
-    border: 1px solid #60B0E6;
-  }
-
-  /*-----------------------------------*/
-  .staff{
-    width: 100%;
-    padding-top: 20px;
-    height: fit-content;
-    padding: 20px;
-    overflow: hidden;
-  }
-  
- 
-  .person {
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-   margin: auto;
-   text-align: center;
-   font-family: arial;
-   padding-top: 20px;
-   background-color: white;
- }
- 
- .person h1{
-   font-size: 140%;
- }
- 
- .portpolio {
-   color: grey;
-   font-size: 18px;
- }
- 
- .others{
-   display: grid;
-   grid-auto-columns: 250px; 
-   grid-gap: 1em;
- }
- .staff-madam .person{
-   border-top: 20px;
- }
-
- /*------------------------------------------*/
- .icon {
-    font-size: 1.5rem !important;
-    margin: 1rem;
-  }
-  .icon:hover {
-  color: rgb(10, 231, 202);
-  transition-delay: 300ms;
-  transform: scale(1.1);
-  }
-  .icon-arrange {
-  display: flex;
-  justify-content: center;
-  }
-  .icon-arrange a{
-    padding:10px;
-  }
-  .fadeInUpBig{
-    overflow: hidden;
-  }
-  #foot {
-  
-    background: url("../images/backfoot.jpg");
-    padding-top: 50px;
-    color: #fff;
-    text-align: center;
-    overflow: hidden;
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml1 .letter',
+    scale: [0.3,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 2000,
+    delay: function(el, i) {
+      return 70 * (i+1)
     }
-  .alignEnd{
-    display: flex;
-    justify-content: space-around;
-  }
-  #foot p a:link{
-    color: inherit!important;
-  }
-  #foot a{
-    color: #fff;
-    text-decoration: none;
-    line-height: 1.5rem;
-    position: relative;
-  }
-
-  /*-------------------------------------------------*/
-  #members{
-    top: 2%;
-    background-color: rgb(39, 39, 39);
-    border-bottom: 1px solid white;
-    color: white;
-    padding: 20px;
-    left: 0;
-    right: 0;
-    width: 90%;
-    margin: 0px 5vw;
-    z-index: 100000;
-    display: none;
-    animation-fill-mode: both;
-  }
-  tr{
-    /*width: 100%;*/
-
-  }
-  table {
-  width: 100%;
-  border-collapse: collapse;
-  }
-  .title-color {
-    background-color: black;
-    color: #fff;
-    padding: 0.3em;
-    /*text-align: center;*/
-    font-weight: 400;
-    font-family: monospace;
-    font-size: 25px;
-    width: auto;
-  }
-  td {
-    padding: 1rem !important;
-    padding-right: 250px;
+  }).add({
+    targets: '.ml1 .line',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "easeOutExpo",
+    duration: 2500,
+    offset: '-=875',
+    delay: function(el, i, l) {
+      return 80 * (l - i);
     }
-  
-  .close{
-    height: 60px;
-    left: 0;
-  }
-  
-  
+  }).add({
+    targets: '.ml1',
+    opacity: 0,
+    duration: 3000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+    </script>
+    <!-------------------------------------------------------------------------------------->
+       
+       <script type="text/javascript">
+       
+       $("#topnav").hide(); $("#ieeeimage").hide(); $("#recent-activities").hide(); $("#sig-box").hide();
+       $("#fest-box").hide(); $("#awards-box").hide(); $("#teachers").hide();$("#foot").hide(); 
+       
+          $(document).ready(function(){
+       
+              
+              new WOW().init();
+               $('.main-toggle').click(function(){
+                   $('nav').toggleClass('active')
+                
+               })
+               
+               
+          })
+          $(document).ready( () => { $(".svg-wrapper").click( () => { $('.front-page').fadeOut();$('.front-page').fadeOut("slow");$('.front-page').fadeOut(2000);setTimeout( () => { $("#members").css("animation", "reverseAppear 0.7s ease-in 0s"); $("#members").css("display", "none");
+          $("#topnav").show(); $("#ieeeimage").show(); $("#sig-box").show(); $("#fest-box").show(); $("#awards-box").show(); $("#teachers").show();$("#foot").show();$("#recent-activities").show();
+           $("#foot").show(); new
+    WOW().init(); }, 500); }); });        
+          function membersAppear(){ $("#topnav").hide(); $("#ieeeimage").hide(); $("#recent-activities").hide(); $("#sig-box").hide();$('.front-page').hide();
+           $("#fest-box").hide(); $("#awards-box").hide(); $("#teachers").hide();$("#foot").hide(); $("#members").css("display", "block"); $("#members").css("animation", "appear 1s ease-in 0s"); }
+       
+           function membersHide() { $("#members").css("animation", "reverseAppear 0.7s ease-in 0s"); $("#members").css("display", "none");$('.front-page').hide();
+           $("#topnav").show(); $("#ieeeimage").show(); $("#sig-box").show(); $("#fest-box").show(); $("#awards-box").show(); $("#teachers").show();$("#foot").show();$("#recent-activities").show();
+           $("#foot").show(); }
+
+           
+           </script>
+           <script>
+               document.body.classList.add('second');
+               window.addEventListener("load",showPage);
+
+               function showPage(){
+                   document.body.classList.remove('second');
+               }
+           </script>
+           
+       
+</html>
