@@ -59,7 +59,7 @@
 
 @media(min-width:800px)
   {
-  .img1 { background-image: url("../images/cover_back.JPG");
+  .img1 { background-image: url("../images/cover_back.jpg");
           image-resolution: 72dpi; 
           margin: 20px;
         }
