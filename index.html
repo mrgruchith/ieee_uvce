@@ -5,15 +5,18 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
         <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/css.css">
+         <link rel="stylesheet" href="css/lap.css">
+         <link rel="stylesheet" href="css/mobile.css">
+         <link rel="stylesheet" href="css/css.css">
         <script src="wow.min.js"></script>
         <link rel="stylesheet" href="css/wow.css">
         
@@ -43,6 +46,7 @@
            
 
         <!-------navbar------------------->
+       
         <nav class="navbar navbar-default navbar-fixed-top" id="topnav">
         <div class="navbar1 container-fluid">
           <div class="navbar-header">
@@ -340,6 +344,7 @@
             </p>
             <br>
         </div>
+    
 
     </div>
         <!--------------------------------------------------->
@@ -347,12 +352,12 @@
                 <div id="execom">
                     <img class="close" src="images/close.svg" alt="Close" onclick="membersHide()">
                     <div>
-                        <h2 class="blue">Execom 19-20</h2>
+                        <h2 class="blue">Execom 2019-20</h2>
                         <div class="line-down"></div>
     
                         <!--Main Body-->
                         <br>
-                        <div class="title-color">Main Body</div>
+                        <div class="title-color">Main Team</div>
                         <div class="members1">
                             <table>
                                 <tbody>
@@ -605,7 +610,7 @@
                 <br>
                 <div id="repcom">
                     <div>
-                        <h2 class="blue">Repcom 19-20</h2>
+                        <h2 class="blue">Repcom 2019-20</h2>
                         <div class="line-down"></div>
                     </div>
                     <br>
@@ -756,6 +761,14 @@ anime.timeline({loop: true})
            $("#foot").show(); }
 
            
+           </script>
+           <script>
+               document.body.classList.add('second');
+               window.addEventListener("load",showPage);
+
+               function showPage(){
+                   document.body.classList.remove('second');
+               }
            </script>
            
        
