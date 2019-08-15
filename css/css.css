@@ -1,3 +1,123 @@
+@media (max-width:800px){
+  .img1{ 
+    background-image: url("../images/cover_back_mob.jpg");
+    margin: 20px;
+  }
+  .ieee-content
+{
+  font-size: 2vh;
+}
+.sig {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 230px;
+  grid-gap: 1em;
+  padding-top: 50px;
+  
+}
+.img2 { background-image: url("../images/c-kagada.jpg");}
+.img3 { background-image: url("../images/c-impetus.jpg"); }
+
+.s-descrip{
+  padding: 5px;
+  font-size: 80%;
+  padding-top: 35px;
+}
+.title h1{
+  font-size: 100%;
+  padding-top: 3%;
+}
+.fest-image{
+  padding:10px; 
+  float: unset;
+  width: 100%;
+  height: 240px;
+  top: 0%;
+}
+
+.fest-image img{
+  height: 100%;
+}
+.staff-madam{
+  float: none;
+}
+.others{
+  grid-template-columns: 1fr 1fr;
+}
+
+.person{
+  max-width: 400px;
+}
+.person img{
+  width: 80%;
+  padding: 5px;
+}
+/*.ml1 .text-wrapper {
+  font-size: 60%;
+}*/
+}
+
+@media(min-width:800px)
+  {
+  .img1 { background-image: url("../images/cover_back.JPG");
+          image-resolution: 72dpi; 
+          margin: 20px;
+        }
+  .ieee-content
+  {
+    font-size: 170%;
+  }
+  .sig {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 230px;
+    grid-gap: 1em;
+    
+  }
+  .img2 { background-image: url("../images/impetus.jpg");}
+  .img3 { background-image: url("../images/kagada18.jpg"); }
+
+  .s-descrip{
+    padding: 20px;
+    font-size: 90%;
+    padding-top: 50px;
+  }
+  .title h1{
+    padding-top: 5px;
+    font-size: 150%;
+  }
+  .fest-image{
+    flex: 100%;
+    height: 470px;
+    top: 0%;
+    /*display: inline-block;*/
+  }
+  
+  .fests{
+    display: flex;
+  }
+  .description{
+    font-size: 200%;
+    padding-top: 300px;
+  }
+  .staff-madam{
+    float: left;
+    width: 30%;
+    padding-top: 15%;
+
+  }
+  .others{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .person img{
+    padding:20px;
+  }
+  /*.ml1 .text-wrapper {
+    font-size: 200%;
+  }*/
+}
+
+
 
 /*-------------------------------------------------------*/
 .intro{
@@ -190,8 +310,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 nav img{
     height: 60px;
     color: rgb(19, 192, 245);
-    padding: 8px;
-    padding-left: 15px;
+    padding: 3px;
   }
 
 .navbar{
@@ -345,7 +464,10 @@ font-weight:400;
     animation-delay: 0;
     animation-fill-mode: forwards;
   }
-  
+  .sig-image:hover .title{
+    display: block;
+
+  }
 
   @-webkit-keyframes drop{
     from{top:-100%}
