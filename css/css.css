@@ -45,6 +45,15 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.recent-list{
+  
+    align-content: center;
+   width: 100%;
+    overflow: hidden;
+    height: fit-content;
+   
+    
+  }
 .person{
   max-width: 400px;
 }
@@ -116,9 +125,26 @@
     font-size: 200%;
   }*/
   .recent-img{
-    padding-top:60px;
+    padding-top:20px;
     padding-left: 15%;
   }
+   
+  .recent{
+    display: flex;
+  }
+
+  .recent-list{
+    padding: 60px;
+      align-content: center;
+      width: 50%;
+      text-align: center;
+      overflow: hidden;
+     height: fit-content;
+     padding-left: 15%;
+      padding-top: 30px;
+      
+    }
+  
 
   .rimage{
     
@@ -128,8 +154,16 @@
   }
 }
 
+table tbody tr td{
+  font-size: 10px;
+}
 
+@media (min-width: 800px) and (max-width: 1100px){
+  .others{
+    grid-template-columns: 1fr 1fr;
+  }
 
+}
 /*-------------------------------------------------------*/
 .intro{
   transform: translate(0%,-50%);
@@ -407,19 +441,10 @@ font-weight:400;
   }
 
   /*---------------------------------------------------------------*/
-  
-.recent{
-    align-content: center;
-    width: 100%;
-    overflow: hidden;
-    height: fit-content;
-    padding-top: 20px;
-    display: flex;
-  }
-
-  
+    
   .recent a{
     display: block;
+    text-align: center;
     color: rgba(48, 49, 49, 0.568);
     font-style: bold;
     padding:1%;
