@@ -129,7 +129,7 @@ table tbody tr td{
   }*/
   .recent-img{
     padding-top:20px;
-    padding-left: 15%;
+    padding-left: 20%;
   }
    
   .recent{
@@ -143,7 +143,7 @@ table tbody tr td{
       text-align: center;
       overflow: hidden;
      height: fit-content;
-     padding-left: 15%;
+     padding-left: 0%;
       padding-top: 30px;
       
     }
@@ -151,9 +151,9 @@ table tbody tr td{
 
   .rimage{
     
-    background-image: url("../images/coll.jpg");
-    width: 400px;
-    height: 200px;
+    background-image: url("../images/coll2.jpg");
+    width: 500px;
+    height: 280px;
   }
 }
 
